@@ -20,6 +20,9 @@ body {
   width: 1300px;
   margin: auto;
 }
+p {
+  line-height: 28px;
+}
 
 a {
   text-decoration: none;
@@ -186,6 +189,7 @@ main .column {
 /* main top */
 main .column .main-top .centrato {
   padding: 0 170px;
+  margin-bottom: 50px;
 }
 
 main .column .main-top .centrato img {
@@ -195,49 +199,80 @@ main .column .main-top .centrato img {
 main .column .main-top .orizzontale {
   background-color: white;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  padding: 85px;
 }
 
-main .column .main-top .orizzontale .box {
-  width: 100%;
-  padding: 100px;
-  margin: 50px 0;
+main .column .main-top .orizzontale {
+  margin-bottom: 50px;
 }
 
-main .column .main-top .orizzontale .box .box-immagine {
+main .column .main-top .orizzontale .box-immagine {
   float: left;
-  width: 15%;
+  width: 25%;
   text-align: center;
-  margin-right: 15%;
+  margin-right: 5%;
 }
 
-main .column .main-top .orizzontale .box .box-immagine img{
+main .column .main-top img{
   height: 110px;
   margin-bottom: 20px;
 }
 
-main .column .main-top .orizzontale .box .box-immagine a{
-display: block;
-padding: 20px 0;
+main .column .main-top .orizzontale .box-immagine a{
+display: inline-block;
+padding: 20px 30px;
 }
 
-main .column .main-top .orizzontale .box .box-testo {
+main .column .main-top .orizzontale .box-testo {
   float: left;
   width: 70%;
 }
 
-main .column .main-top .orizzontale .box .box-testo h4 {
+main .column .main-top .orizzontale .box-testo h4 {
   float: left;
   padding-right: 40px;
 }
 
-main .column .main-top .orizzontale .box .box-testo hr {
+main .column .main-top .orizzontale .box-testo hr {
   width: 65%;
   margin: 27px auto;
 }
 
-main .column .main-top .orizzontale .box .box-testo li {
+main .column .main-top .orizzontale .box-testo li {
   display: inline-block;
+  padding-top: 15px;
   padding-right: 15px;
+}
+
+main .column .main-top .verticale .column {
+  float: left;
+  width: 30%;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  padding: 30px;
+  text-align: center;
+}
+
+main .column .main-top .verticale .column:nth-child(2) {
+  margin: 0% 5%;
+}
+
+main .column .main-top .verticale .column p {
+  padding-bottom: 50px;
+}
+
+main .column .main-top .verticale .column h4 {
+  padding: 40px;
+}
+
+main .column .main-top .verticale .column ul {
+  text-align: left;
+}
+
+main .column .main-top .verticale .column a {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 20px 30px;
 }
 /* main center */
 
