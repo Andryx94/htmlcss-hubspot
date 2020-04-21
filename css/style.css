@@ -161,6 +161,7 @@ header .jumbotron .column .title p:last-child{
 }
 
 header .jumbotron .column .title a{
+  display: inline-block;
   margin: 0;
   padding: 20px 30px;
 }
