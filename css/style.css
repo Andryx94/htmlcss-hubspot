@@ -22,6 +22,7 @@ body {
 }
 p {
   line-height: 28px;
+  letter-spacing: -0.5px;
 }
 
 a {
@@ -275,6 +276,15 @@ main .column .main-top .verticale .column a {
   padding: 20px 30px;
 }
 /* main center */
+main .sfondo-azzurro .column .main-center .centrato h3 {
+  font-size: 30px;
+  margin: 0 20px;
+}
 
+main .sfondo-azzurro {
+  background-color: #00a8b9;
+  color: white;
+
+}
 /* main bottom */
 .
