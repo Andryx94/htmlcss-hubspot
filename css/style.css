@@ -5,15 +5,43 @@
   box-sizing: border-box;
 }
 
-.clearfix:after {
-   content: "";
-   display: table;
-   clear: both;
- }
-
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  width: 1300px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.cto {
+  background-color: #fe775a;
+  padding: 10px;
+  border: 1px solid #fe775a;
+  border-radius: 6px;
+  color: white
+}
+
 /* .classediesempio {
   position: absolute;
   left: 50%;
@@ -21,3 +49,95 @@ body {
   transform: translate(-50%, -50%);
 } */
 /* fine generali */
+
+/* HEADER */
+/* header top */
+header .header-top {
+  background-color: #f4f9fd;
+  border-bottom: 2px solid black;
+}
+
+header .header-top .column > div{
+  padding: 30px 0;
+}
+
+header .header-top .column .language {
+  float: left;
+}
+
+header .header-top .column .language a:last-child {
+  border-left: 1px solid black;
+  padding-left: 15px;
+  margin-left: 15px;
+  color: black;
+}
+
+header .header-top .column .subscription {
+  float: right;
+}
+
+header .header-top .column .subscription i {
+  color: #00a4bd;
+}
+
+header .header-top .column .subscription #cornice-bianca {
+  padding: 10px;
+  border: 1px solid #fe775a;
+  border-radius: 6px;
+  color: #fe775a;
+  margin: 0 15px;
+}
+
+/* header center */
+header .header-center .column img, header .header-center .column > nav{
+  padding: 30px 0;
+}
+
+header .header-center .column img {
+  float: left;
+  vertical-align: middle;
+}
+
+header .header-center .column nav {
+  float: right;
+}
+
+header .header-center .column nav li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+header .header-center .column nav li:last-child {
+  padding: 0px;
+}
+/* jumbotron */
+header .jumbotron {
+  position: relative;
+  background-image: url(../img/jumbotron.png);
+  background-color: #fff4ef;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  height: 610px;
+}
+
+header .jumbotron .column .title {
+  position: absolute;
+  top: 10%;
+  width: 700px;
+}
+
+header .jumbotron .column .title p{
+  padding: 40px 0;
+}
+
+header .jumbotron .column .title a{
+  padding: 20px 30px;
+}
+
+/* header bottom */
+header .header-bottom {
+  background-color: #afebe4;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  height: 90px;
+}
