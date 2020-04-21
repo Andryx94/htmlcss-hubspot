@@ -34,12 +34,37 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
 .cto {
   background-color: #fe775a;
   padding: 10px;
   border: 1px solid #fe775a;
   border-radius: 6px;
-  color: white
+  color: white;
+}
+
+.centrato {
+  text-align: center;
+}
+
+.orange {
+  color: #fe775a;
+  padding-right: 10px;
 }
 
 /* .classediesempio {
@@ -100,6 +125,7 @@ header .header-center .column img {
 
 header .header-center .column nav {
   float: right;
+  line-height: 30px;
 }
 
 header .header-center .column nav li {
@@ -127,10 +153,15 @@ header .jumbotron .column .title {
 }
 
 header .jumbotron .column .title p{
-  padding: 40px 0;
+  margin: 30px 0;
+}
+
+header .jumbotron .column .title p:last-child{
+  font-size: 13px;
 }
 
 header .jumbotron .column .title a{
+  margin: 0;
   padding: 20px 30px;
 }
 
@@ -141,3 +172,72 @@ header .header-bottom {
   border-bottom: 3px solid black;
   height: 90px;
 }
+/* fine header */
+
+/* MAIN */
+main {
+  background-color: #f4f9fd;
+}
+
+main .column {
+  padding: 50px 0;
+}
+/* main top */
+main .column .main-top .centrato {
+  padding: 0 170px;
+}
+
+main .column .main-top .centrato img {
+  height: 200px;
+}
+
+main .column .main-top .orizzontale {
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+main .column .main-top .orizzontale .box {
+  width: 100%;
+  padding: 100px;
+  margin: 50px 0;
+}
+
+main .column .main-top .orizzontale .box .box-immagine {
+  float: left;
+  width: 15%;
+  text-align: center;
+  margin-right: 15%;
+}
+
+main .column .main-top .orizzontale .box .box-immagine img{
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+main .column .main-top .orizzontale .box .box-immagine a{
+display: block;
+padding: 20px 0;
+}
+
+main .column .main-top .orizzontale .box .box-testo {
+  float: left;
+  width: 70%;
+}
+
+main .column .main-top .orizzontale .box .box-testo h4 {
+  float: left;
+  padding-right: 40px;
+}
+
+main .column .main-top .orizzontale .box .box-testo hr {
+  width: 65%;
+  margin: 27px auto;
+}
+
+main .column .main-top .orizzontale .box .box-testo li {
+  display: inline-block;
+  padding-right: 15px;
+}
+/* main center */
+
+/* main bottom */
