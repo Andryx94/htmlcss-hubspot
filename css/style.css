@@ -33,6 +33,12 @@ body {
   color: white;
 }
 
+.cto:hover {
+  background-color: white;
+  border: 1px solid #fe775a;
+  color: #fe775a;
+}
+
 .orange {
   color: #fe775a;
   padding-right: 10px;
@@ -87,7 +93,7 @@ header .header-top {
 
 header .header-top .column .language {
   float: left;
-  padding: 25px;
+  padding: 28px 0;
 }
 
 header .header-top .column .language a:last-child {
@@ -135,11 +141,11 @@ header .header-center .column nav {
 
 header .header-center .column nav li {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 12px;
 }
 
 header .header-center .column nav li:last-child {
-  padding: 0px;
+  padding-right: 0px;
 }
 
 /* jumbotron */
@@ -185,59 +191,63 @@ main .column {
 }
 
 /* main top */
-main .main-top .column img{
+main #main-top .column img{
   height: 110px;
   margin-bottom: 20px;
 }
 
-main .main-top .column .centrato {
+main #main-top .column .centrato {
   padding: 0 170px;
   margin-bottom: 50px;
 }
 
-main .main-top .column .centrato img {
+main #main-top .column .centrato img {
   height: 200px;
 }
 
-main .main-top .column .orizzontale {
+main #main-top .column .orizzontale {
   background-color: white;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
   padding: 85px;
 }
 
-main .main-top .column .orizzontale {
+main #main-top .column .orizzontale:hover {
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+}
+
+main #main-top .column .orizzontale {
   margin-bottom: 50px;
 }
 
-main .main-top .column .orizzontale .box-immagine {
+main #main-top .column .orizzontale .box-immagine {
   float: left;
   width: 25%;
   text-align: center;
   margin-right: 5%;
 }
 
-main .main-top .column .orizzontale .box-testo {
+main #main-top .column .orizzontale .box-testo {
   float: left;
   width: 70%;
 }
 
-main .main-top .column .orizzontale .box-testo h4 {
+main #main-top .column .orizzontale .box-testo h4 {
   float: left;
   padding-right: 40px;
 }
 
-main .main-top .column .orizzontale .box-testo hr {
+main #main-top .column .orizzontale .box-testo hr {
   width: 65%;
   margin: 27px auto;
 }
 
-main .main-top .column .orizzontale .box-testo li {
+main #main-top .column .orizzontale .box-testo li {
   display: inline-block;
   padding-top: 15px;
   padding-right: 15px;
 }
 
-main .main-top .column .verticale .tab {
+main #main-top .column .verticale .tab {
   float: left;
   width: 30%;
   background-color: white;
@@ -246,37 +256,41 @@ main .main-top .column .verticale .tab {
   text-align: center;
 }
 
-main .main-top .column .verticale .tab:nth-child(2) {
+main #main-top .column .verticale .tab:hover {
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+}
+
+main #main-top .column .verticale .tab:nth-child(2) {
   margin: 0% 5%;
 }
 
-main .main-top .column .verticale .tab p {
+main #main-top .column .verticale .tab p {
   padding-bottom: 50px;
 }
 
-main .main-top .column .verticale .tab h4 {
+main #main-top .column .verticale .tab h4 {
   padding: 40px;
 }
 
-main .main-top .column .verticale .tab ul {
+main #main-top .column .verticale .tab ul {
   text-align: left;
   margin-bottom: 40px;
 }
 
 /* main center */
-main .main-center {
+main #main-center {
   background-image: linear-gradient(to right, #00aab8 , #00bca6);
   color: white;
 }
 
-main .main-center .column h3 {
+main #main-center .column h3 {
   font-size: 30px;
   margin: 0 20px;
 }
-main .main-center .column .griglia{
+main #main-center .column .griglia{
   padding-top: 60px;
 }
-main .main-center .column .griglia .square {
+main #main-center .column .griglia .square {
   float: left;
   width: 25%;
   padding: 25px;
@@ -284,75 +298,75 @@ main .main-center .column .griglia .square {
   border-right: 1px solid white;
 }
 
-main .main-center .column .griglia .square:nth-child(1n+5) {
+main #main-center .column .griglia .noborderbottom {
   border-bottom: none;
 }
 
-main .main-center .column .griglia .square:nth-child(4n+4) {
+main #main-center .column .griglia .noborderright {
   border-right: none;
 }
 
-main .main-center .column .griglia .square .numbers {
+main #main-center .column .griglia .square .numbers {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 800;
   padding: 20px 0;
 }
 
-main .main-center .column .griglia .square p {
+main #main-center .column .griglia .square p {
   font-size: 13px;
 }
 
 /* main bottom */
-main .main-bottom .column .up .box-testo {
+main #main-bottom .column .up .box-testo {
   float: left;
   width: 17%;
   margin-left: 5%;
 }
 
-main .main-bottom .column .up .box-testo h3 {
+main #main-bottom .column .up .box-testo h3 {
   font-size: 50px;
 }
 
-main .main-bottom .column .up .box-immagine {
+main #main-bottom .column .up .box-immagine {
   float: right;
   width: 60%;
 }
 
-main .main-bottom .column .up .box-immagine li{
+main #main-bottom .column .up .box-immagine li{
   display: inline-block;
   line-height: 30px;
   vertical-align: middle;
 }
 
-main .main-bottom .column .up .box-immagine img{
+main #main-bottom .column .up .box-immagine img{
   width: 150px;
   margin-right: 30px;
 }
 
-main .main-bottom .column .down  {
+main #main-bottom .column .down  {
   padding-top: 40px;
 }
 
-main .main-bottom .column .down .box-testo {
+main #main-bottom .column .down .box-testo {
   float: left;
   width: 42%;
   padding-top: 50px;
 }
 
-main .main-bottom .column .down .box-testo a{
+main #main-bottom .column .down .box-testo a{
   margin: 40px 0;
 }
 
-main .main-bottom .column .down .box-testo p:last-child{
+main #main-bottom .column .down .box-testo p:last-child{
   font-size:13px;
 }
 
-main .main-bottom .column .down .box-immagine {
+main #main-bottom .column .down .box-immagine {
   float: right;
 }
 
-main .main-bottom .column .down .box-immagine img {
+main #main-bottom .column .down .box-immagine img {
   height: 450px;
 }
 
@@ -384,12 +398,18 @@ footer .footer-top .column .list h5, footer .footer-top .column .list a {
 
 footer .footer-top .column .list .cto {
   background-color: rgba(255,255,255,0.8);
-  border: rgba(255,255,255,0.8);
+  border: 1px solid rgba(255,255,255,0.8);
   color: #32495b;
   padding: 15px;
   margin-bottom: 20px;
   font-size: 15px;
   letter-spacing: -0.8px;
+}
+
+footer .footer-top .column .list .cto:hover {
+  background-color: #32495b;
+  border: 1px solid rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8);
 }
 
 footer .footer-top .column .list #sublist li{
